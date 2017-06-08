@@ -1,0 +1,21 @@
+1. Which of the following is a valid insert statement in mongodb? (5 pts)
+a. db.test.insert({x:2,y:"apple"})
+
+2. Given a collection named books within a database named library, write the statement you would use
+to query all the contents of the collection in such a way that the results are displayed in
+JSON format with one property-value pair per line. (5 pts)
+db.books.find().pretty()
+
+5. A query may include a ___________ that specifies the fields from the matching documents to return. (5 pts)
+b. projection
+
+4. MongoDB stores all documents in: (5 pts)
+b. collections
+
+5. If you want to change an existing collection in mongodb, you must use the following command: (5 pts)
+c. update
+
+6. Given a collection named students, where the documents have first_name and last_name properties,
+how would you write a mondogb query that looks up all students
+with the last name "Castro"? (5 pts)
+db.students.find({last-name; "Castro"})
